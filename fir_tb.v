@@ -66,7 +66,6 @@ module fir_tb
 
 
     fir fir_DUT(
-    .e(e),
         .awready(awready),
         .wready(wready),
         .awvalid(awvalid),

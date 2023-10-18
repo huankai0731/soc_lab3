@@ -4,8 +4,6 @@
     parameter Tape_Num    = 11
 )
 (
-        output wire [5:0] e,
-
     output  wire                     awready,
     input   wire [(pADDR_WIDTH-1):0] awaddr,
     input   wire                     awvalid,
