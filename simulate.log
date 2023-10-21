@@ -1,0 +1,87 @@
+Time resolution is 1 ps
+------------System Reset-------------
+------------1Start simulation-----------
+----1Start the data input(AXI-Stream)----
+----Start the coefficient input(AXI-lite)----
+write coef time =               155000.
+ Check Coefficient ...
+ time =               705000.
+OK: exp =           0, rdata =           0
+OK: exp =         -10, rdata =         -10
+OK: exp =          -9, rdata =          -9
+OK: exp =          23, rdata =          23
+OK: exp =          56, rdata =          56
+OK: exp =          63, rdata =          63
+OK: exp =          56, rdata =          56
+OK: exp =          23, rdata =          23
+OK: exp =          -9, rdata =          -9
+OK: exp =         -10, rdata =         -10
+OK: exp =           0, rdata =           0
+ Tape programming done ...
+ Start FIR
+----End the coefficient input(AXI-lite)----
+OK: exp =           0, rdata =           0
+------1End the data input(AXI-Stream)------
+OK: exp =           2, rdata =           6
+OK: exp =           4, rdata =           6
+-----------Congratulations! Pass-------------
+----------- 1st Simulation End -------------
+
+round update
+------------2Start simulation-----------
+----2Start the data input(AXI-Stream)----
+round 2 start
+----Start the coefficient input(AXI-lite)----
+write coef time =            349575000.
+ Check Coefficient ...
+ time =            350125000.
+OK: exp =           0, rdata =           0
+OK: exp =         -10, rdata =         -10
+OK: exp =          -9, rdata =          -9
+OK: exp =          23, rdata =          23
+OK: exp =          56, rdata =          56
+OK: exp =          63, rdata =          63
+OK: exp =          56, rdata =          56
+OK: exp =          23, rdata =          23
+OK: exp =          -9, rdata =          -9
+OK: exp =         -10, rdata =         -10
+OK: exp =           0, rdata =           0
+ Tape programming done ...
+ Start FIR
+----End the coefficient input(AXI-lite)----
+start stream master transfer
+OK: exp =           0, rdata =           0
+------2End the data input(AXI-Stream)------
+OK: exp =           2, rdata =           6
+OK: exp =           4, rdata =           6
+-----------Congratulations! Pass-------------
+----------- 2nd Simulation End -------------
+
+------------3Start simulation-----------
+----3Start the data input(AXI-Stream)----
+----Start the coefficient input(AXI-lite)----
+write coef time =            698995000.
+ Check Coefficient ...
+ time =            699545000.
+OK: exp =           0, rdata =           0
+OK: exp =         -10, rdata =         -10
+OK: exp =          -9, rdata =          -9
+OK: exp =          23, rdata =          23
+OK: exp =          56, rdata =          56
+OK: exp =          63, rdata =          63
+OK: exp =          56, rdata =          56
+OK: exp =          23, rdata =          23
+OK: exp =          -9, rdata =          -9
+OK: exp =         -10, rdata =         -10
+OK: exp =           0, rdata =           0
+ Tape programming done ...
+ Start FIR
+----End the coefficient input(AXI-lite)----
+OK: exp =           0, rdata =           0
+------3End the data input(AXI-Stream)------
+OK: exp =           2, rdata =           6
+OK: exp =           4, rdata =           6
+-----------Congratulations! Pass-------------
+----------- 3rd Simulation End -------------
+
+$finish called at time : 1048305 ns : File "C:/Users/kai/Desktop/SOC/lab3/lab3/fir_tb.v" Line 315
